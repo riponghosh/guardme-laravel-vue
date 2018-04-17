@@ -1,0 +1,42 @@
+$site-blue: #425982;
+$site-green: #39ab49;
+$site-maroon: #742f6e;
+
+$theme-colour: $site-green;
+
+.fg-site-blue {
+  color: $site-blue !important;
+}
+.bg-site-blue {
+  background: $site-blue !important;
+}
+.fg-hover-site-blue:hover {
+  color: $site-blue !important;
+}
+
+.fg-site-green {
+  color: $site-green !important;
+}
+.bg-site-green {
+  background: $site-green !important;
+}
+.fg-hover-site-green:hover {
+  color: $site-green !important;
+}
+
+.fg-site-maroon {
+  color: $site-maroon !important;
+}
+.bg-site-maroon {
+  background: $site-maroon !important;
+}
+.fg-hover-site-maroon:hover {
+  color: $site-maroon !important;
+}
+
+.fg-site-theme {
+  color: $theme-colour !important;
+}
+.bg-site-theme {
+  background: $theme-colour !important;
+}

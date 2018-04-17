@@ -1,0 +1,16 @@
+div#app {
+  .navbar-header {
+    background: $theme-colour;
+  }
+  .top-left-part {
+    background: white;
+
+    a {
+      color: $theme-colour;
+      font-size: 23px;
+      padding-left: 0;
+      text-transform: unset;
+      font-weight: 600;
+    }
+  }
+}

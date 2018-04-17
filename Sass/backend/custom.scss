@@ -1,0 +1,15 @@
+div#app {
+  .btn-danger.active.focus, .btn-danger.active:focus, .btn-danger.active:hover, .btn-danger.focus, .btn-danger.focus:active, .btn-danger:active:focus, .btn-danger:active:hover, .btn-danger:focus, .open > .dropdown-toggle.btn-danger.focus, .open > .dropdown-toggle.btn-danger:focus, .open > .dropdown-toggle.btn-danger:hover {
+    background-color: $theme-colour;
+    border: 1px solid $theme-colour;
+  }
+
+  .btn-theme, .btn-danger.disabled {
+    background: $theme-colour;
+    border: 1px solid $theme-colour;
+  }
+
+  .bg-title .breadcrumb .active {
+    color: $theme-colour;
+  }
+}

@@ -1,0 +1,26 @@
+div#app {
+  .sidebar {
+    #side-menu {
+      & > li {
+        & > a {
+          &.active {
+            border-left: 3px solid $theme-colour;
+            color: $theme-colour;
+            font-weight: 500;
+
+            i {
+              color: darken($theme-colour, 11%);
+            }
+          }
+        }
+      }
+
+      .user-pro .nav-second-level a:hover {
+        color: lighten($site-maroon, 21%);
+      }
+    }
+  }
+  #side-menu ul > li > a:hover {
+    color: lighten($site-maroon, 21%);
+  }
+}

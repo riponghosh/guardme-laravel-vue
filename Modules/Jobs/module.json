@@ -1,0 +1,7 @@
+{
+    "name": "Jobs",
+    "slug": "jobs",
+    "version": "1.0",
+    "description": "manages jobs: create, schedule, complete, delete jobs",
+    "order" : 50
+}

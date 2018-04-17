@@ -1,0 +1,39 @@
+.advanced-real-estate-tabs ul.tab-nav li.ui-tabs-active a {
+  background-color: $site-green;
+}
+
+.advanced-real-estate-tabs .tab-container {
+  border-top: 3px solid $site-green;
+}
+
+.irs-from, .irs-to, .irs-single, .irs-bar {
+  background: $site-blue;
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-themecolor, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-themecolor {
+  background: $site-blue;
+}
+.real-estate-video-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.78) 100%);
+}
+
+#header.transparent-header {
+  z-index: 300;
+}
+
+ol, ul {
+  padding-left: 0px;
+}
+
+#primary-menu {
+  a.button {
+    line-height: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    i {
+      top: -7px;
+    }
+    &:hover {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+#invite-friends-modal{
+  .modal-title{
+    color: #39ab49;
+    font-size:1.2em;
+  }
+
+  ul{
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+
+    li{
+      margin: 0px 10px;
+
+      i{
+        font-size: 3em;
+        color: #425982;
+      }
+    }
+  }
+}

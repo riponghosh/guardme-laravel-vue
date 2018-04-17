@@ -1,0 +1,13 @@
+div.listings {
+  div.listing-item {
+    h3 {
+      a {
+        color: black;
+      }
+    }
+    p.list-description {
+      height: 110px;
+      overflow: hidden;
+    }
+  }
+}
